@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="second_acitvity"
+        android:enabled="true"
+        android:icon="@drawable/ic_second"
+        android:shortcutShortLabel="@string/second_activity_short_label"
+        android:shortcutLongLabel="@string/second_activity_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="krunal.com.example.appshortcut"
+            android:targetClass="krunal.com.example.appshortcut.SecondActivity"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="third_acitvity"
+        android:enabled="true"
+        android:icon="@drawable/ic_third"
+        android:shortcutShortLabel="@string/third_activity_short_label"
+        android:shortcutLongLabel="@string/third_activity_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="krunal.com.example.appshortcut"
+            android:targetClass="krunal.com.example.appshortcut.ThirdActivity"/>
+    </shortcut>
+
+
+</shortcuts>

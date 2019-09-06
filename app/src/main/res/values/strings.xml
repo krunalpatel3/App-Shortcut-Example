@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">App Shortcut</string>
+
+    <string name="second_activity_short_label">Second Activity</string>
+    <string name="second_activity_long_label">@string/second_activity_short_label</string>
+
+    <string name="third_activity_short_label">Third Activity</string>
+    <string name="third_activity_long_label">@string/third_activity_short_label</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
